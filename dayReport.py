@@ -26,7 +26,7 @@ def load_params(ss, mode):
         "CREATED_AT": "%Y-%m-%d %H:%M:%S",
         "NEED_CHECKIN_DATE": "%Y-%m-%d"
     }
-    params["DZ_JSDTCJTW"] = 36 + random.randint(1, 10) / 10
+    params["DZ_JSDTCJTW"] = 36 + random.randint(-2, 6) / 10
     if mode != '':
         try:
             local = configs['dailyReport'][mode]
